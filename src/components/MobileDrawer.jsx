@@ -29,13 +29,13 @@ const MobileDrawer = () => {
       <DrawerBody>
         <VStack alignItems={'flex-start'} >
           <Button onClick={onClose} variant={"ghost"} fontWeight={'thin'}  colorScheme='purple'>
-            <Link to={'/'}>Home</Link>
+            <Link to={'/sikke-baaz'}>Home</Link>
           </Button>
           <Button onClick={onClose} variant={"ghost"} fontWeight={'thin'} colorScheme='purple'>
-            <Link to={'/coins'}>Coins</Link>
+            <Link to={'/sikke-baaz/coins'}>Coins</Link>
           </Button>
           <Button onClick={onClose} variant={"ghost"} colorScheme='purple'>
-            <Link to={'/exchanges'}>Exchanges</Link>
+            <Link to={'/sikke-baaz/exchanges'}>Exchanges</Link>
           </Button>
         </VStack>
         <HStack pos={'absolute'}
@@ -44,10 +44,10 @@ const MobileDrawer = () => {
           justifyContent={'space-evenly'}
           w={'full'}>
           <Button onClick={onClose} colorScheme='purple'>
-            <Link to={'/login'}>Log In</Link>
+            <Link to={'/sikke-baaz/login'}>Log In</Link>
           </Button>
           <Button onClick={onClose} variant={'outline'} colorScheme='purple'>
-            <Link to={'/signup'}>Sign Up</Link>
+            <Link to={'/sikke-baaz/signup'}>Sign Up</Link>
           </Button>
         </HStack>
       </DrawerBody>
