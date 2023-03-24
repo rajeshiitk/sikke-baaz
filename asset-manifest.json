@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/sikke-baaz/static/js/main.e12bba5b.js",
+    "static/media/main.svg": "/sikke-baaz/static/media/main.7e4f7cd5056e9ee5920d2dbefe038367.svg",
+    "index.html": "/sikke-baaz/index.html",
+    "main.e12bba5b.js.map": "/sikke-baaz/static/js/main.e12bba5b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e12bba5b.js"
+  ]
+}
