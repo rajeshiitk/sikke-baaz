@@ -34,7 +34,7 @@ const Signup = () => {
       <Text textAlign={'right'}>
       Already Signed Up?{" "}  
       <Button variant={'link'}  colorScheme={"purple"}>
-      <Link to={"/login"} >Login In</Link>
+      <Link to={"/sikke-baaz/login"} >Login In</Link>
       </Button>
        </Text>
       
