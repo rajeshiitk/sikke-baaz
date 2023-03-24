@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/sikke-baaz/static/js/main.f201f5eb.js",
+    "main.js": "/sikke-baaz/static/js/main.bf99f579.js",
     "static/media/main.svg": "/sikke-baaz/static/media/main.7e4f7cd5056e9ee5920d2dbefe038367.svg",
     "index.html": "/sikke-baaz/index.html",
-    "main.f201f5eb.js.map": "/sikke-baaz/static/js/main.f201f5eb.js.map"
+    "main.bf99f579.js.map": "/sikke-baaz/static/js/main.bf99f579.js.map"
   },
   "entrypoints": [
-    "static/js/main.f201f5eb.js"
+    "static/js/main.bf99f579.js"
   ]
 }
