@@ -15,7 +15,7 @@ function App() {
         <Route path="/sikke-baaz" element={ <Home />}/>
         <Route path="/sikke-baaz/coins" element={ <Coins />}/>
         <Route path="/sikke-baaz/exchanges" element={ <Exchanges />}/>
-        <Route path="/sikke-baaz/coin/:id" element={ <CoinDetails />}/>
+        <Route path="/sikke-baaz/coins/:id" element={ <CoinDetails />}/>
         <Route path="/sikke-baaz/login" element={ <Login />}/>
         <Route path="/sikke-baaz/signup" element={ <Signup />}/>
       </Routes>

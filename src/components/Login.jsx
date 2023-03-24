@@ -22,7 +22,7 @@ const Login = () => {
       focusBorderColor={'purple.500'}/>
 
       <Button variant={'link'} alignSelf={"flex-end"}>
-      <Link to={"/forgot-password"} > Forgot Password</Link>
+      <Link to={"sikke-baaz/forgot-password"} > Forgot Password</Link>
       </Button>
 
       <Button colorScheme={'purple'} type={'submit'} >
@@ -32,7 +32,7 @@ const Login = () => {
       <Text textAlign={'right'}>
       New User?{" "}  
       <Button variant={'link'}  colorScheme={"purple"}>
-      <Link to={"/signup"} >Sign Up</Link>
+      <Link to={"sikke-baaz/signup"} >Sign Up</Link>
       </Button>
        </Text>
       
