@@ -14,15 +14,15 @@ const Header = () => {
 
       <HStack display={['none', 'flex']}>
         <Button color='white' fontSize={'25'} _hover={{ color: "purple.500" }} variant={'unstyled'} px={'2'}>
-          <Link to="/"  >Home</Link>
+          <Link to="/sikke-baaz"  >Home</Link>
         </Button>
         <Button color='white' fontSize={'25'} _hover={{ color: "purple.500" }} variant={'unstyled'} px={'2'}>
-          <Link  to="/coins">Coins</Link>
+          <Link  to="/sikke-baaz/coins">Coins</Link>
         </Button>
         <Button color='white' fontSize={'25'} 
           _hover={{ color: "purple.500" }}
           variant={'unstyled'} px={'2'}>
-          <Link to="/exchanges">Exchanges</Link>
+          <Link to="/sikke-baaz/exchanges">Exchanges</Link>
         </Button>
       </HStack>
       <HStack>
@@ -30,10 +30,10 @@ const Header = () => {
           justifyContent={'space-evenly'}
           w={'full'}>
           <Button colorScheme='purple'>
-            <Link to={'/login'}>Log In</Link>
+            <Link to={'/sikke-baaz/login'}>Log In</Link>
           </Button>
           <Button variant={'outline'} color={'purple.600'} colorScheme='purple'>
-            <Link to={'/signup'}>Sign Up</Link>
+            <Link to={'/sikke-baaz/signup'}>Sign Up</Link>
           </Button>
          
 
